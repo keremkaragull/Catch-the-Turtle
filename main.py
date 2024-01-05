@@ -2,13 +2,13 @@ import turtle
 import random
 import time
 
-
 score = 0
 t = 15
 best = 0
 a = 0
 b = 0
 
+#minigame1
 minigame1 = turtle.Turtle()
 minigame1.shape("square")
 minigame1.penup()
@@ -17,6 +17,7 @@ minigame1.goto(-150,50)
 minigame1.write("Timed", font=("arial", 40))
 minigame1.goto(-175,75)
 turtle.tracer(1)
+
 
 turtle.tracer(0)
 ctc = turtle.Turtle()
@@ -211,7 +212,7 @@ target.onclick(targetclickfunc)
 minigame1.onclick(startfunc)
 game_board.onkey(fun=cfunc, key="c")
 
-########################################################################################################################
+#minigame2
 
 turtle.tracer(0)
 minigame2 = turtle.Turtle()
